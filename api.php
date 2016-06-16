@@ -46,5 +46,3 @@ switch ($request->method) {
 }
 
 echo $response->serialize($results);
-$error = json_last_error();
-debug($error);
