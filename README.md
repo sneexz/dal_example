@@ -1,5 +1,13 @@
 # Simple JSON Rest API w/ Database Abstraction Layer
 
+**API URL**
+----
+  Prepend this to all requests and base domain URL
+  
+  `/api.php/`
+
+  **Sample:** `http://localhost:8888/api.php/`
+
 **Headers**
 ----
   Apply headers to all requests
